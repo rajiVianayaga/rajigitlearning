@@ -1,0 +1,421 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Verifying adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-details;verifying-adactin-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8685649800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin page",
+            "match": {
+              "location": "LoginpageStep.a()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 902187300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter \"Rajalakshmi1\" and \"DRFT3T\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rajalakshmi1\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"DRFT3T\"",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginpageStep.b(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3061219600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter search hotels by \"Paris\",\"Hotel Cornice\",\"Deluxe\",\"3 - Three\",\"13/10/2021\",\"15/10/2021\",\"3 - Three\",\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Paris\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Hotel Cornice\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"13/10/2021\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"15/10/2021\"",
+                  "offset": 93
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 106
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 118
+                }
+              ],
+              "location": "LoginpageStep.c(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7102807300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should enter payment details by \"Rajalakshmi\",\"Athikesavan\",\"No.18,Vinayagar street, Vellore\",\"1234567891234567\",\"VISA\",\"July\",\"2022\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rajalakshmi\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Athikesavan\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"No.18,Vinayagar street, Vellore\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"1234567891234567\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 118
+                },
+                {
+                  "val": "\"July\"",
+                  "offset": 125
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 132
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 139
+                }
+              ],
+              "location": "LoginpageStep.d(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Verifying adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-details;verifying-adactin-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8519467400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin page",
+            "match": {
+              "location": "LoginpageStep.a()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 887494900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter \"Rajalakshmi1\" and \"DRFT3T\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rajalakshmi1\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"DRFT3T\"",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginpageStep.b(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2947672900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter search hotels by \"Paris\",\"Hotel Cornice\",\"Deluxe\",\"3 - Three\",\"13/10/2021\",\"15/10/2021\",\"3 - Three\",\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Paris\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Hotel Cornice\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"13/10/2021\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"15/10/2021\"",
+                  "offset": 93
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 106
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 118
+                }
+              ],
+              "location": "LoginpageStep.c(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7008953800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should enter payment details by \"Rajalakshmi\",\"Athikesavan\",\"No.18,Vinayagar street, Vellore\",\"1234567891234567\",\"VISA\",\"July\",\"2022\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rajalakshmi\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Athikesavan\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"No.18,Vinayagar street, Vellore\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"1234567891234567\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 118
+                },
+                {
+                  "val": "\"July\"",
+                  "offset": 125
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 132
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 139
+                }
+              ],
+              "location": "LoginpageStep.d(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verifying adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-details;verifying-adactin-login-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4452737600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin page",
+            "match": {
+              "location": "LoginpageStep.a()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 907867200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter \"Rajalakshmi1\" and \"DRFT3T\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rajalakshmi1\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"DRFT3T\"",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginpageStep.b(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2788782100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter search hotels by \"Paris\",\"Hotel Cornice\",\"Deluxe\",\"3 - Three\",\"13/10/2021\",\"15/10/2021\",\"3 - Three\",\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Paris\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Hotel Cornice\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"13/10/2021\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"15/10/2021\"",
+                  "offset": 93
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 106
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 118
+                }
+              ],
+              "location": "LoginpageStep.c(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7435507800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should enter payment details by \"Rajalakshmi\",\"Athikesavan\",\"No.18,Vinayagar street, Vellore\",\"1234567891234567\",\"VISA\",\"July\",\"2022\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rajalakshmi\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Athikesavan\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"No.18,Vinayagar street, Vellore\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"1234567891234567\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 118
+                },
+                {
+                  "val": "\"July\"",
+                  "offset": 125
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 132
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 139
+                }
+              ],
+              "location": "LoginpageStep.d(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying adactin details",
+    "description": "",
+    "id": "verifying-adactin-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/loginpages.feature",
+    "tags": []
+  }
+]
